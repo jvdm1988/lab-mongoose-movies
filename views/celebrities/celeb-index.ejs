@@ -1,0 +1,12 @@
+<h2> Welcome to the celebrities Page! </h2>
+
+<ul>
+<%  CelebrityArray.forEach ((oneCeleb) => { %>
+    <li>
+
+        <a href="/celebrities/<%=oneCeleb._id%>"> <%=oneCeleb.name%> </a>
+        <br>
+
+    </li>
+  <% }); %>
+</ul>
